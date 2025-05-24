@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 
+               'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Improves readability for text */
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Code styling */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #eee;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Responsive container for better layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add a nice transition effect for all elements */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
